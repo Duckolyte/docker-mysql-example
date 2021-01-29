@@ -18,3 +18,10 @@ Enable WSL2 according to https://docs.microsoft.com/en-us/windows/wsl/install-wi
 > mysql>
 6. Or connect from an ide to the db using the following url. (username: root, pw: my-secret-pw)
 > jdbc:mysql://localhost:80/
+
+### 4. Useful commands 
+> docker image ls
+> docker container ls
+> docker network ls
+> docker network inspect [network]
+> docker network connect [network] [container_id]
