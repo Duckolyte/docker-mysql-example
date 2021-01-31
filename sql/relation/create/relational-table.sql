@@ -1,0 +1,11 @@
+-- Create a second table with a relation to the first table
+CREATE TABLE PLAYER_ADDRESS
+	(
+	ADDRESS_ID INT NOT NULL,
+    STREET VARCHAR(1024) NOT NULL,
+    HOUSE_NUMBER VARCHAR(1024) NOT NULL, -- Use VARCHAR since House numbers can contain characters. E.g. 2A.
+    CITY VARCHAR(1024) NOT NULL,
+    POSTAL_CODE VARCHAR(1024) NOT NULL,
+    COUNTRY VARCHAR(1024) NOT NULL,
+    PRIMARY KEY (ADDRESS_ID)
+	);

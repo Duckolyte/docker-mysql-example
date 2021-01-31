@@ -1,0 +1,1 @@
+-- TODO Delete a record and explain "referential action" e.g. ON DELETE CASCADE  
